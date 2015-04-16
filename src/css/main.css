@@ -2,6 +2,7 @@
 
 .sign-in {
   color: #5aadb2;
+  font-size: .8em;
 }
 
 .sign-in a+a:before {
@@ -10,8 +11,20 @@
 
 /* TOP SECTION */
 
+#header-box {
+  background-color: orange;
+  border-radius: 50px 50px 0 0;
+  overflow: hidden;
+}
+
+#header-box.columns:nth-child(2) {
+  margin-top: 25%;
+  background-color: red;
+}
+
 .buttons li {
-  line-height: 15px;
+  line-height: 1px;
+  width: 25%;
 }
 
 .buttons li:nth-child(1) {
@@ -28,12 +41,6 @@
 
 .buttons li:nth-child(4) {
   background-color: #e9168c;
-}
-
-#header-box {
-  background-color: orange;
-  border-radius: 50px 50px 0 0;
-  overflow: hidden;
 }
 
 /* NAVIGATION BAR */
@@ -72,6 +79,11 @@
 }
 
 /* BODY */
+
+#content-body {
+  box-sizing: border-box;
+  padding: 15px;
+}
 
 .pictures img:not(:last-child) {
   margin-bottom: 10px;
