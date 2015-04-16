@@ -10,6 +10,10 @@
 
 /* TOP SECTION */
 
+.buttons li {
+  line-height: 15px;
+}
+
 .buttons li:nth-child(1) {
   background-color: #78cbd0;
 }
@@ -64,5 +68,9 @@
 /* BODY */
 
 .pictures img:not(:last-child) {
-  margin-bottom:
+  margin-bottom: 10px;
+}
+
+.tree div img {
+  margin-top: 100px;
 }
