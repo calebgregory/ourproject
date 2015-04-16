@@ -1,0 +1,63 @@
+/* SIGN IN, SIGN UP */
+
+.sign-in div a:nth-child(1) {
+  padding-left: 5px;
+  margin-left: 0;
+}
+
+/* TOP SECTION */
+
+buttons {
+  height: 5px;
+}
+
+.buttons li:nth-child(1) {
+  background-color: #78cbd0;
+}
+
+.buttons li:nth-child(2) {
+  background-color: #8db639;
+}
+
+.buttons li:nth-child(3) {
+  background-color: #6f308c;
+}
+
+.buttons li:nth-child(4) {
+  background-color: #e9168c;
+}
+
+/* NAVIGATION BAR */
+
+.top-bar,
+.top-bar ul li,
+.top-bar-section li a:not(.button) {
+  background-color: #f4cbd3;
+}
+
+.top-bar section ul li {
+  margin-top: 1%;
+  padding: 0 4%;
+}
+
+.top-bar section ul li:last-child {
+  margin-top: 0;
+  padding: 0;
+}
+
+.has-form div div input {
+  border: #e39fab;
+  color: #f7d7dd;
+  background: url(/img/search.gif) no-repeat 7px 7px;
+  background-color: white;
+  padding-left: 30px;
+}
+
+.top-bar-section .has-form {
+  width: 200px;
+  background-color: #f4cbd3;
+}
+
+.has-form div div {
+  background-color: #f4cbd3;
+}
