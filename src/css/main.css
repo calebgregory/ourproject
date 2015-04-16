@@ -1,11 +1,13 @@
 /* SIGN IN, SIGN UP */
 
-.sign-in {
+#sign-in {
   color: #5aadb2;
   font-size: .8em;
+  padding-right: 4%;
+  margin-bottom: 10%;
 }
 
-.sign-in a+a:before {
+#sign-in a+a:before {
   content: '| ';
 }
 
@@ -14,11 +16,17 @@
 #header-box {
   background-color: orange;
   border-radius: 50px 50px 0 0;
-  overflow: hidden;
+  height: 150px;
 }
 
-#header-box.columns:nth-child(2) {
-  margin-top: 25%;
+#header-box div.small-6:nth-child(1) {
+  margin-top: -25px;
+  margin-bottom: -30px;
+  z-index: 4;
+}
+
+#header-box div.small-6:nth-child(2) {
+  margin-top: 5%;
   background-color: red;
 }
 
