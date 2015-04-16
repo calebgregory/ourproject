@@ -4,20 +4,11 @@
   color: #5aadb2;
 }
 
-.sign-in a:nth-child(1) {
-  margin-right: 5px;
-}
-
-.sign-in a:nth-child(2) {
-  margin-left: 5px;
-  border-left: 1px #5aadb2;
+.sign-in a+a:before {
+  content: '| ';
 }
 
 /* TOP SECTION */
-
-buttons {
-  height: 5px;
-}
 
 .buttons li:nth-child(1) {
   background-color: #78cbd0;
@@ -68,4 +59,10 @@ buttons {
 
 .has-form div div {
   background-color: #f4cbd3;
+}
+
+/* BODY */
+
+.pictures img:not(:last-child) {
+  margin-bottom:
 }
