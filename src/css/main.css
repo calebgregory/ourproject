@@ -78,7 +78,7 @@
   margin-top: 1%;
   padding: 0 2%;
   color: #6e1849;
-  font-family: "Rockwell Extra Bold";
+  font: 1.2em chunkfiveroman;
 }
 
 .top-bar-section ul li:last-child {
@@ -124,7 +124,7 @@
 #content-body div.small-7 h2 {
   font-size: 1.2em;
   color: #8db639;
-  font-family: "Rockwell Extra Bold";
+  font-family: chunkfiveroman;
   padding-left: 2.5%;
 }
 
